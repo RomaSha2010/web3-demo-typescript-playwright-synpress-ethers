@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "typeRoots": ["./node_modules/@types", "./test/@types"],
+  },
+  "include": [
+    "src/",
+    "test/"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__mocks__/*",
+    "**/__tests__/*"
+  ]
+}
